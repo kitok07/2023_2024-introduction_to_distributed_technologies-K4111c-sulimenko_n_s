@@ -10,3 +10,8 @@ Date of finished: -
 
 ___
 
+### Развертывание пода
+
+### Схема организации контейеров и сервисов
+[Ссылка](https://drive.google.com/drive/folders/12NbINUiqkI9iRPy5nM3f-LhXHdc2Jd9T?usp=sharing) для редактирование схемы
+__ Рисунок __
