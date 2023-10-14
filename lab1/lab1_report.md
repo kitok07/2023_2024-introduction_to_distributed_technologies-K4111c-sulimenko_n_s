@@ -1,11 +1,11 @@
-University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FICT](https://fict.itmo.ru)
-Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
-Year: 2023/2024
-Group: K4111c
-Author: Sulimenko Nikita Sergeevich
-Lab: Lab1
-Date of create: 13.10.2023
+University: [ITMO University](https://itmo.ru/ru/)\
+Faculty: [FICT](https://fict.itmo.ru)\
+Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)\
+Year: 2023/2024\
+Group: K4111c\
+Author: Sulimenko Nikita Sergeevich\
+Lab: Lab1\
+Date of create: 13.10.2023\
 Date of finished: -
 
 ___
@@ -31,6 +31,8 @@ Minikube запустит одноузловой кластер Kubernetes, ис
 1) Удаление пода: ``minikube kubectl -- delete pod vault``
 2) Удаление сервиса:  ``minikube kubectl -- delete service vault``
 3) Останавливка работы кластера: ``minikube stop``
+
+___
 
 ### Схема организации контейеров и сервисов
 <img width="544" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/7fb9603b-22df-4112-a535-389047c59ac9">\
