@@ -17,7 +17,7 @@ Minikube запустит одноузловой кластер Kubernetes, ис
 3) Установка kubectl: ``minikube kubectl``
 
 ### Основная часть
-1) Создание манифеста [vault-pod.yaml]()\
+1) Создание манифеста [vault-pod.yaml](./vault-pod.yaml)\
 В манифесте указан образ контейнера Vault и порт, который нужно прокинуть внутрь контейнера.
 2) Применение манифеста для создания пода Vault: ``minikube kubectl -- apply -f vault-pod.yaml``
 3) Создание cервиса для досутпа к поду: ``minikube kubectl -- expose pod vault --type=NodePort --port=8200`` 
