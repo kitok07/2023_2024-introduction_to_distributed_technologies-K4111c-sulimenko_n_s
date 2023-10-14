@@ -33,5 +33,5 @@ Minikube запустит одноузловой кластер Kubernetes, ис
 3) Останавливка работы кластера: ``minikube stop``
 
 ### Схема организации контейеров и сервисов
+<img width="544" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/7fb9603b-22df-4112-a535-389047c59ac9">\
 [Ссылка](https://drive.google.com/drive/folders/12NbINUiqkI9iRPy5nM3f-LhXHdc2Jd9T?usp=sharing) для редактирование схемы
-__ Рисунок __
