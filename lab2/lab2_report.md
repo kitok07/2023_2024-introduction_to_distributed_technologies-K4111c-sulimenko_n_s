@@ -26,3 +26,5 @@ REACT_APP_USERNAME, REACT_APP_COMPANY_NAME: ``kubectl apply -f lab2_deployment.y
 ___
 
 Схема организации контейеров и сервисов
+
+<img width="475" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/f58b32c8-8248-43ad-b114-13b2e22172aa">
