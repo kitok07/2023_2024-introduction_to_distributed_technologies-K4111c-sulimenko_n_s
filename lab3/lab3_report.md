@@ -15,7 +15,7 @@ ___
 3) Включение Ingress: ``minikube addons enable ingress``
 4) Генирация TLS сертификата: ``openssl req -x509 -newkey rsa:4096 -sha256 -days 12 -nodes -keyout tls.key -out tls.crt -subj "/CN=lab3host.com"``
 5) Импорт сертификата в minikube: ``kubectl create secret tls lab3host-tls --cert=tls.crt --key=tls.key``
-6) Cоздание ingress [ingress_3.yaml ]() в minikube, где указан ранее импортированный сертификат, FQDN и имя сервиса.
+6) Cоздание ingress [ingress_3.yaml ]() в minikube, где указан ранее импортированный сертификат, FQDN и имя сервиса и его приминение: ``kubectl apply -f ingress.yaml``
 
 Если вы делаете эту работу на Windows/macOS для доступа к ingress вам необходимо использовать команду minikbe tunnel к созданному ingress. Если вы делаете эту работу на Windows/macOS для доступа к ingress вам необходимо в hosts добавить ip address и ваш FQDN.
 
