@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - lab3.front.com
+    - lab3.front.local
     secretName: lab3-tls-secret
   rules:
-  - host: lab3.front.com
+  - host: lab3.front.local
     http:
       paths:
       - path: /
