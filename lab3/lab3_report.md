@@ -22,3 +22,5 @@ ___
 <img width="905" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/bbba1d69-a073-48a2-9a94-fc8ccd77ef3f">
 
 <img width="910" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/0051622d-98c0-43c6-b405-d0a221ad1e17">
+
+![image](https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/56d3a6bf-a277-4054-992b-d0a45442d3e4)
