@@ -20,7 +20,7 @@ Minikube запустит одноузловой кластер Kubernetes, ис
 1) Создание манифеста [vault-pod.yaml](./vault-pod.yaml)\
 В манифесте указан образ контейнера Vault и порт, который нужно прокинуть внутрь контейнера.
 2) Применение манифеста для создания пода Vault: ``minikube kubectl -- apply -f vault-pod.yaml``
-3) Создание cервиса для досутпа к поду: ``minikube kubectl -- expose pod vault --type=NodePort --port=8200`` 
+3) Создание cервиса для досутупа к поду: ``minikube kubectl -- expose pod vault --type=NodePort --port=8200`` 
 4) Проброс портов: ``minikube kubectl -- port-forward service/vault 8200:8200``
 5) Получение кредов для входа в Vault: ``minikube kubectl -- logs vault``\
 Ищем строку с **Root Token**.
