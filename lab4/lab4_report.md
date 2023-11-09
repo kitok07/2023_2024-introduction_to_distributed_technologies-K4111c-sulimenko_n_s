@@ -19,9 +19,9 @@ ___
 ``kubectl label nodes <узел_1> location=us-east``\
 ``kubectl label nodes <узел_2> location=us-west``
 
-3) Создадим манифест для Calico, определяющий IP-пулы в соответствии с метками узлов: [ippool.yaml]()
+3) Создадим манифест для Calico, определяющий IP-пулы в соответствии с метками узлов: [ippool.yaml](ippool.yaml)
 
-4) Создадим манифест для Deployment с необходимыми переменными окружения: [deployment.yaml]()
+4) Создадим манифест для Deployment с необходимыми переменными окружения: [deployment.yaml](deployment.yaml)
 5) Установим calicoctl: ``kubectl create -f calicoctl.yaml``
 6) Создадим IP пулы с помощью calicoctl в поде: ``kubectl exec -i -n kube-system calicoctl -- /calicoctl create -f - < ippool.yaml --allow-version-mismatch``
 7) Выводим информацию о IP пулах через calicoctl: ``kubectl exec -i -n kube-system calicoctl -- /calicoctl get ippool -o wide   --allow-version-mismatch``
