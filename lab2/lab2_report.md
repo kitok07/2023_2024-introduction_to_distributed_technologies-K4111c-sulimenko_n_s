@@ -6,7 +6,7 @@ Group: K4111c\
 Author: Sulimenko Nikita Sergeevich\
 Lab: Lab2\
 Date of create: 13.10.2023\
-Date of finished: -
+Date of finished: 26.10.2023
 
 ___
 
