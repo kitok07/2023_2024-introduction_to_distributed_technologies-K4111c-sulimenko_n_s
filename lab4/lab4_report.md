@@ -15,5 +15,10 @@ ___
 - ``kubectl get pods -n kube-system -l k8s-app=calico-node``
 <img width="564" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/96ad93ea-283d-442a-a7f0-d14611bcade3">
 
+Для проверки IPAM (IP Address Management), назначим метки узлам. Присвоем метку географического расположения: location=us-east и location=us-west, для соответсвующих нод.\
+``kubectl label nodes <узел_1> location=us-east``\
+``kubectl label nodes <узел_2> location=us-west``
 
-3)  
+3) Создадим манифест для Calico, определяющий IP-пулы в соответствии с метками узлов: [ippool.yaml]()
+
+4) Создадим манифест для Deployment с необходимыми переменными окружения: [deployment.yaml]()
