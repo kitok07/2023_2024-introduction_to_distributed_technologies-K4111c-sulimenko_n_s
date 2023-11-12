@@ -1,4 +1,4 @@
-<img width="831" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/e0da96ad-d3b5-4bbf-97b5-ecd6fe8346c3">University: [ITMO University](https://itmo.ru/ru/)\
+University: [ITMO University](https://itmo.ru/ru/)\
 Faculty: [FICT](https://fict.itmo.ru)\
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)\
 Year: 2023/2024\
@@ -40,3 +40,5 @@ ___
 ___
 
 ### Схема
+
+<img width="497" alt="image" src="https://github.com/kitok07/2023_2024-introduction_to_distributed_technologies-K4111c-sulimenko_n_s/assets/147832281/1957143e-8e9c-4113-87e8-92941f7a0c9a">
