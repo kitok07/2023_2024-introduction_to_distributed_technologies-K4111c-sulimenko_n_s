@@ -6,7 +6,7 @@ Group: K4111c\
 Author: Sulimenko Nikita Sergeevich\
 Lab: Lab4\
 Date of create: 9.11.2023\
-Date of finished: -
+Date of finished: 16.11.2023
 
 ___
 1) Запуск Minikube с плагином CNI Calico и в режиме Multi-Node Clusters: ``minikube start --cni=calico --nodes=2``
