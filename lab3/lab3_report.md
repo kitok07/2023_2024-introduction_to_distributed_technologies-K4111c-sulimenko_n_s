@@ -6,7 +6,7 @@ Group: K4111c\
 Author: Sulimenko Nikita Sergeevich\
 Lab: Lab3\
 Date of create: 16.10.2023\
-Date of finished: -
+Date of finished: 15.11.2023
 
 ___
 1) Cоздание и применение configMap [configmap_3.yaml](configmap_3.yaml) с переменными: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME: ``kubectl apply -f configmap_3.yaml``
